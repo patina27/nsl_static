@@ -1,6 +1,6 @@
 // var baseURL = 'https://nsl-database.herokuapp.com/api/';
 //var baseURL = 'http://127.0.0.1:5000/api/';
-var baseURL = 'https://hexo.patina27.net/nsl_static/assets/json/'
+var baseURL = 'http://hexo.patina27.net/nsl_static/assets/json/'
 
 function fullMonth(month)
 {
