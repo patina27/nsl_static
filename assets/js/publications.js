@@ -120,8 +120,7 @@ function secondOnChange()
 	//check if we are sorting by year
 	if(sortedby=="Year")
 	{
-		 console.log(selectedValue)
-		if (selectedValue == "default") {
+		if (selectedValue == "Recent Publications") {
 			default_display()
 		} else {
 			//lets clean out the display area first
