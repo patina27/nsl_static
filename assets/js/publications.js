@@ -23,6 +23,8 @@ thirdDropDownTitle.style.display = "none";
 
 getPublications();
 
+firstOnchange()
+secondOnChange()
 
 //default display
 function default_display(){
@@ -41,6 +43,8 @@ function default_display(){
 		}
 	}
 }
+
+
 
 //lets see what user choose from the first drop down , and then show things accordingly
 function firstOnchange()
@@ -92,10 +96,10 @@ function firstOnchange()
 		document.getElementById('secondText').innerHTML="Years:";
 		//now lets add all the years to the drop down
 		document.getElementById('second').innerHTML= "<option value=\"Select a year\">Select a year</option>";
+		document.getElementById('second').innerHTML +=  "<option value=\"default\">" +"Recent Publications"+ "</option>"
 		for(var loop=years.length-1;loop>=0;loop--)
 		{
 			//now lets add the options to the second dropdown
-			document.getElementById('second').innerHTML +=  "<option value=\"default\">" +"Recent Publications"+ "</option>"
 			document.getElementById('second').innerHTML += "<option value=\""+years[loop] +"\">" +years[loop]+ "</option>";
 		}
 	}else
