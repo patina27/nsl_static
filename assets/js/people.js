@@ -39,7 +39,7 @@ function getfacultyMembers()
 			if(webpage != null)
 				webpage_ = "<div class=\"sitelinks\" id=\"website_\"><i id=\"icons_\" class=\"fa fa-globe\"></i>"+ "<a id=\"webpageLink\" href=\"" +webpage+"\"" + ">Web Page</a>" + "</div>";
 			else
-				webpage_ = "<div class=\"sitelinks\" id=\"website_\"><i id=\"icons_\" class=\"fa fa-globe\"></i>"+ "<a id=\"webpageLink\" href=\"" +""+"\"" + ">Web Page</a>" + "</div>";
+				webpage_ = "<div class=\"sitelinks\" id=\"website_\"><i id=\"icons_\" class=\"fa fa-globe\"></i>"+ "<a id=\"webpageLink\" href=\"" +"#"+"\"" + ">Web Page</a>" + "</div>";
 			
 			var email_ = "";
 			if(email != null)
@@ -51,7 +51,7 @@ function getfacultyMembers()
 			if(linkedin != null)
 				linked_ = "<div class=\"sitelinks\" id=\"website_\"><i id=\"icons_\" class=\"fa fa-linkedin-square\"></i>"+ "<a id=\"LinkedInLink\" href=\"" +linkedin+"\"" + ">LinkedIn</a>" + "</div>";
 			else
-				linked_ = "<div class=\"sitelinks\" id=\"website_\"><i id=\"icons_\" class=\"fa fa-linkedin-square\"></i>"+ "<a id=\"LinkedInLink\" href=\"" +""+"\"" + ">LinkedIn</a>" + "</div>";
+				linked_ = "<div class=\"sitelinks\" id=\"website_\"><i id=\"icons_\" class=\"fa fa-linkedin-square\"></i>"+ "<a id=\"LinkedInLink\" href=\"" +"#"+"\"" + ">LinkedIn</a>" + "</div>";
 			
 			var finalHTML = card+imagetag+detailContainer+name_+description_+webpage_+email_+linked_+"</div></div></div>";
 
