@@ -24,7 +24,6 @@ thirdDropDownTitle.style.display = "none";
 getPublications();
 
 firstOnchange()
-secondOnChange()
 
 //default display
 function default_display(){
@@ -101,6 +100,7 @@ function firstOnchange()
 			//now lets add the options to the second dropdown
 			document.getElementById('second').innerHTML += "<option value=\""+years[loop] +"\">" +years[loop]+ "</option>";
 		}
+		secondOnChange()
 	}else
 	{
 		document.getElementById('secondText').innerHTML="Select a sorting method first:";
