@@ -27,7 +27,8 @@ function fullMonth(month)
 }
 
 function GMTtoDate(date)
-{
+{ 
+    console.log(date)
 	var day= date.split("-");
 	return fullMonth(day[1])+' '+day[2]+", "+day[0];
 

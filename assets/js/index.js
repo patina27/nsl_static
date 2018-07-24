@@ -38,7 +38,7 @@ function getNews_4()
 				//if image is not null use the given image other wise use the default one
 				var images_="";
 				if(image1!= null)
-					images_= "<img src=\"data:image/png;base64,"+ image1+ "\"alt=\"\" /> </div>";
+					images_= "<img src=\""+ image1+ "\"alt=\"\" /> </div>";
 				else
 					images_= "<img src=\"assets/images/default_news.png\" alt=\"\" /> </div>";
 				
@@ -62,7 +62,7 @@ function getNews_4()
 				//if image is not null use the given image other wise use the default one
 				var images__="";
 				if(image1!= null)
-					images__= "<img src=\"data:image/png;base64,"+ image1+ "\"alt=\"\" /> </div> </div>";
+					images__= "<img src=\""+ image1+ "\"alt=\"\" /> </div> </div>";
 				else
 					images__= "<img src=\"assets/images/default_news.png\" alt=\"\" /> </div> </div>";
 				
