@@ -13,6 +13,7 @@ var dataTable = $('#courseTable_').DataTable(
 //applying changes 
 $(document).ready(dataTable);
 //making link and description column invisible
+dataTable.column(2).visible(false);
 dataTable.column(3).visible(false);
 dataTable.column(4).visible(false);
 
