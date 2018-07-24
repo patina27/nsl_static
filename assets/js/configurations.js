@@ -1,6 +1,6 @@
 // var baseURL = 'https://nsl-database.herokuapp.com/api/';
 //var baseURL = 'http://127.0.0.1:5000/api/';
-var baseURL = '//hexo.patina27.net/nsl_static/assets/json/'
+var baseURL = '//www2.ee.washington.edu/research/nsl/faculty/radha/assets/json/'
 
 function fullMonth(month)
 {
