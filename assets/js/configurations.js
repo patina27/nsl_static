@@ -5,7 +5,7 @@
 // var baseURL = '//www2.ee.washington.edu/research/nsl/faculty/radha/assets/json/'
 
 //debug
-var baseURL = '//hexo.patina27.net/nsl_static/asset/json/'
+var baseURL = '//hexo.patina27.net/nsl_static/assets/json/'
 
 function fullMonth(month)
 {
